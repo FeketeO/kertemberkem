@@ -14,7 +14,7 @@
 > _A főoldal egy üdvözlő képernyő a következő idézettel:_
 
 >A föld mosolyog a virágok között.  
-                        Ralph Waldo Emerson
+                    Ralph Waldo Emerson
 
  **Elfogadási kritérium:**  
 
@@ -107,8 +107,8 @@ A kategória kiválasztásával és a kulcsszónak megfelelően frissül a lista
 > _Különbözőképpen sorrendbe rendezhetőek a növények egyes kategóriái._
 
 **Elfogadási kritérium:**  
-- A szám típusú adatok alapján növekvő és csökkenő sorrendben lehet rendezni a szuperhősöket (azonosító).
-- A szöveges adatok alapján abc-szerinti és fordított sorrendben lehet rendezni a szuperhősöket (név).
+- A szám típusú adatok alapján növekvő és csökkenő sorrendben lehet rendezni a növényeket (azonosító).
+- A szöveges adatok alapján abc-szerinti és fordított sorrendben lehet rendezni a növényeket (név).
 
 ---
 ---
