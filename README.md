@@ -13,13 +13,12 @@
 **1. agile user story:**
 > _A főoldal egy üdvözlő képernyő a következő idézettel:_
 
->_A föld mosolyog a virágok között._
-
- _Ralph Waldo Emerson_
+>A föld mosolyog a virágok között.  
+                        Ralph Waldo Emerson
 
  **Elfogadási kritérium:**  
 
-Egy mobiloptimalizált, látványos háttérrel egy rövid leírása a virágok közti növénytársíátsnak.
+Egy mobiloptimalizált, látványos háttérrel egy rövid leírása a virágok közti növénytársításnak.
 
 ---
 ---
