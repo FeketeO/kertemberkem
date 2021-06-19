@@ -18,7 +18,7 @@
 
  **Elfogadási kritérium:**  
 
-Egy mobiloptimalizált, látványos háttérrel egy rövid leírása a virágok közti növénytársításnak.
+Egy mobiloptimalizált, látványos háttérrel a fenti idézet olvasható.
 
 ---
 ---
@@ -116,11 +116,11 @@ A kategória kiválasztásával és a kulcsszónak megfelelően frissül a lista
 ---
 ---
 
-**_Kertemberkem Plants Plans - Készítői/admin oldal_**
+**_Kertemberkem - Készítői/admin oldal_**
 
 ---
 **1. agile user story:**
-> _A Kertemberkem Plants Plans aloldalon megjelennek a növények lényegesnek tartott adatai._
+> _A Kertemberkem Növények aloldalra navigálva megjelennek a növények adatai._
 
 **Elfogadási kritérium:**  
 Az aloldal megjeleníti az összes listázott növény adatait lista formátumban. Ezek az adatok a következők: azonosító, név, kép.
@@ -128,7 +128,7 @@ Az aloldal megjeleníti az összes listázott növény adatait lista formátumba
 ---
 
 **2. agile user story:**
-> _A Kertemberkem Plants Plans aloldalon új növények adatai vehetők fel._
+> _A Kertemberkem aloldalon új növények adatai vehetők fel._
 
 **Elfogadási kritérium:**  
 - A kötelező adatok megadásával egy új növény adatait lehet felvinni, ami megjelenik a listázó oldalon, létrejön az adott növény adatlapja.
