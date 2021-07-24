@@ -1,0 +1,66 @@
+{
+  "users": [
+    {"_id": "fgs45346mdfs",
+  "firstName": "Janne",
+  "lastName": "White",
+  "email": "j@gmail.com",
+  "address": "LA",
+  "active": "true"
+},
+
+{"_id": "dsgsg4646",
+  "firstName": "Joe",
+  "lastName": "Black",
+  "email": "jb@gmail.com",
+  "address": "CA",
+  "active": "false"
+}
+
+  ],
+  "plants": [
+    {
+      "id": "gfsd77",
+      "name": "Carpathian bellflower",
+      "latinName": "Campanula carpatica",
+      "colour": "blue, lilac, white",
+      "waterDemand": "modest",
+      "lightDemand": "light-intensive",
+      "soilDemand": "modest",
+      "blooming": "July, August, September",
+      "utilization": "ornamental",
+      "toxic": false,
+      "breeding": "ornamental",
+      "type": "low herbaceous",
+      "evergreen": false
+},
+
+{
+  "_id": "gfddsd77567",
+  "name": "swamp iris",
+  "latinName": "Iris pseudacorus",
+  "colour": "yellow",
+  "waterDemand": "water demanding",
+  "lightDemand": "light-intensive",
+  "soilDemand": "humus",
+  "blooming": "May, June",
+  "utilization": "ornamental",
+  "toxic": true,
+  "breeding": "ornamental",
+  "type": "medium herbaceous",
+  "evergreen": false
+}
+
+  ],
+  "gardens": [
+    {
+      "_id": "rff565ji",
+      "user": "fgs45346mdfs",
+      "garden" : [
+        "gfsd77",
+        "gfddsd77567"
+      ],
+      "note": ""
+}
+
+  ]
+}
