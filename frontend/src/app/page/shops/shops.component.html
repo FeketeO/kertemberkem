@@ -6,7 +6,11 @@
         List of gardening stores
     </div>
 
-  <app-data-table [tableColumns]="tableColumns"></app-data-table>
+    <app-data-table
+    [tableColumns]="tableColumns"
+    [list$]="list$"
+    >
+  </app-data-table>
 
 </div>
 </div>

@@ -3,7 +3,7 @@
   "plants": [
     {
       "_id": "1",
-      "name": "Carpathian bellflower",
+      "name": "Kárpáti Harangvirág",
       "latinName": "Campanula carpatica",
       "colour": "blue, lilac, white",
       "waterDemand": "modest",
@@ -108,7 +108,7 @@
 },
 {
   "_id": "8",
-  "name": "Piros Gyűszűvirágr",
+  "name": "Piros Gyűszűvirág",
   "latinName": "(Digitalis purpurea",
   "colour": "cream, yellow, rose, white",
   "waterDemand": "sensitive",
@@ -305,7 +305,7 @@
 {
   "_id": "21",
   "name": "Holland Nőszirom",
-  "latinName": "(Iris x hollandica",
+  "latinName": "Iris x hollandica",
   "colour": "white",
   "waterDemand": "sensitive",
   "lightDemand": "sun-lover",
@@ -314,7 +314,8 @@
   "lifeCycles": "perennial",
   "type": "medium-high herbaceous",
   "toxic": "true",
-  "evergreen": "no"
+  "evergreen": "no",
+  "url":"http://www.botanikaland.hu/iris-x-hollandica/holland-noszirom/"
 },
 {
   "_id": "22",
@@ -328,128 +329,129 @@
   "lifeCycles": "perennial",
   "type": "low herbaceous",
   "toxic": "false",
-  "evergreen": "no"
+  "evergreen": "no",
+  "url":"http://www.botanikaland.hu/leucanthemum-maximum/margareta/"
 }
 ],
   "gardens": [
     {
       "_id": "1",
-      "user": "20",
+      "user": "Sanderson Cavanagh",
       "garden" : [
-        "2",
-        "20",
-        "21",
-        "10"
+        "Törpe Lobélia",
+        "Sárgaviola",
+        "Piros Gyűszűvirág",
+        "Nagyvirágú Macskamenta"
       ],
       "note": ""
 },
 {
   "_id": "2",
-  "user": "11",
+  "user": "Teirtza Aymeric",
   "garden" : [
-    "4",
-    "20",
-    "20",
-    "10"
+    "Illatos Ibolya",
+    "Lángszínű Sásliliom",
+    "Bársonyvirág",
+    "Pompás Rézvirág"
   ],
   "note": ""
 },
 {
   "_id": "3",
-  "user": "10",
+  "user": "Carlee Whistance",
   "garden" : [
-    "2",
-    "20",
-    "21",
-    "10"
+    "Sárgaviola",
+    "Kerti Nebáncsvirág",
+    "Bársonyvirág",
+    "Pompás Rézvirág"
   ],
   "note": ""
 },
 {
   "_id": "4",
-  "user": "17",
+  "user": "Mireielle Baugham",
   "garden" : [
-    "2",
-    "20",
-    "21",
-    "11"
+    "Sásliliom",
+    "Sárgaviola",
+    "Kerti Sarkantyúka",
+    "Piros Gyűszűvirág"
   ],
   "note": ""
 },
 {
   "_id": "5",
-  "user": "13",
+  "user": "Odie Shaves",
   "garden" : [
-    "12",
-    "2",
-    "20",
-    "10"
+    "Margaréta",
+    "Lángszínű Sásliliom",
+    "Holland Nőszirom",
+    "Sásliliom"
   ],
   "note": ""
 },
 {
   "_id": "6",
-  "user": "5",
+  "user": "Ebenezer Ellcome",
   "garden" : [
-    "2",
-    "5",
-    "21",
-    "6"
+    "Cseppecskevirág",
+    "Kerti Nebáncsvirág",
+    "Pompás Rézvirág",
+    "Sásliliom"
   ],
   "note": ""
 },
 {
   "_id": "7",
-  "user": "1",
+  "user": "Gael Servant",
   "garden" : [
-    "5",
-    "9",
-    "21",
-    "3"
+    "Kerti Sarkantyúka",
+    "Nagyvirágú Macskamenta",
+    "Cseppecskevirág",
+    "Kerti Harangláb"
   ],
   "note": ""
 },
 {
   "_id": "8",
-  "user": "8",
+  "user": "Katee Stockhill",
   "garden" : [
-    "2",
-    "20",
-    "21",
-    "10"
+    "Margaréta",
+    "Pompás Gólyaorr",
+    "Holland Nőszirom",
+    "Nagyvirágú Macskamenta"
   ],
   "note": ""
 },
 {
   "_id": "9",
-  "user": "17",
+  "user": "Florian Linford",
   "garden" : [
-    "2",
-    "20",
-    "11",
-    "10"
+    "Pompás Gólyaorr",
+    "Dúsvirágú Petúnia",
+    "Kerti Sarkantyúka",
+    "Kerti Harangláb"
   ],
   "note": ""
 },
 {
   "_id": "10",
-  "user": "19",
+  "user": "Prescott Goldwater",
   "garden" : [
-    "12",
-    "2",
-    "1",
-    "16"
+    "Kerti Sarkantyúka",
+    "Kerti Harangláb",
+    "Keleti Mák",
+    "Pompás Varjúháj"
   ],
   "note": ""
 },
 {
   "_id": "11",
-  "user": "14",
+  "user": "Dag Rosellini",
   "garden" : [
-    "12",
-    "20",
-    "11",
-    "14"
+    "Margaréta",
+    "Dúsvirágú Petúnia",
+    "Kerti Sarkantyúka",
+    "Keleti Mák"
   ],
   "note": ""
 }
@@ -459,14 +461,14 @@
       "_id": "1",
       "name": "Sun lovers",
       "plantList" : [
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+        "A: Velencei Kutyatej ",
+        "B: Pompás Varjúháj ",
+        "C: Keleti Mák ",
+        "D: Kerti Harangláb ",
+        "E: Óriás Díszhagyma ",
+        "F: Nagyvirágú Macskamenta ",
+        "G: Piros Gyűszűvirág ",
+        "H: Sárgaviola "
       ],
       "note": "",
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/1_1.jpg"
@@ -474,22 +476,22 @@
     {
       "_id": "2",
       "name": "Nice summertime",
-      "garden" : [
-        "10",
-        "11",
-        "12",
-        "13"
+      "plantList" : [
+        "A: Törpe Lobélia ",
+        "B: Kerti Sarkantyúka ",
+        "C: Lángszínű Sásliliom ",
+        "D: Sásliliom "
       ],
       "note": "",
-      "utl": "http://gazigazito.hu/tarhely/probalkozas/kepek/15.jpg"
+      "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/15.jpg"
     },
     {
       "_id": "3",
       "name": "Low border",
-      "garden" : [
-        "11",
-        "14",
-        "15"
+      "plantList" : [
+        "A: Kerti Sarkantyúka ",
+        "B: Cseppecskevirág ",
+        "C: Pompás Gólyaorr "
       ],
       "note": "",
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/14.jpg"
@@ -497,14 +499,14 @@
     {
       "_id": "4",
       "name": "All white",
-      "garden" : [
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22"
+      "plantList" : [
+        "A: Illatos Ibolya ",
+        "B: Dúsvirágú Petúnia",
+        "C: Pompás Rézvirág ",
+        "D: Kerti Nebáncsvirág",
+        "E: Bársonyvirág ",
+        "F: Holland Nőszirom",
+        "G: Margaréta"
       ],
       "note": "",
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/7_1.jpg"
@@ -514,281 +516,281 @@
   [
     {
     "_id": 1,
-    "first_name": "Addison",
-    "last_name": "Renehan",
+    "firstName": "Addison",
+    "lastName": "Renehan",
     "email": "arenehan0@ftc.gov",
     "password": "hG8FuS",
     "role": 2
   }, {
     "_id": 2,
-    "first_name": "Devon",
-    "last_name": "Bengle",
+    "firstName": "Devon",
+    "lastName": "Bengle",
     "email": "dbengle1@w3.org",
     "password": "phbd324BQKY",
     "role": 2
   }, {
     "_id": 3,
-    "first_name": "Jennie",
-    "last_name": "Gimson",
+    "firstName": "Jennie",
+    "lastName": "Gimson",
     "email": "jgimson2@whitehouse.gov",
     "password": "h22Oz8NkF",
     "role": 3
   }, {
     "_id": 4,
-    "first_name": "Cletus",
-    "last_name": "Nutbean",
+    "firstName": "Cletus",
+    "lastName": "Nutbean",
     "email": "cnutbean3@delicious.com",
     "password": "qvmrAxFIQh",
     "role": 1
   }, {
     "_id": 5,
-    "first_name": "Waverley",
-    "last_name": "Tooth",
+    "firstName": "Waverley",
+    "lastName": "Tooth",
     "email": "wtooth4@lulu.com",
     "password": "tYYUxoy",
     "role": 1
   }, {
     "_id": 6,
-    "first_name": "Christyna",
-    "last_name": "Luc",
+    "firstName": "Christyna",
+    "lastName": "Luc",
     "email": "cluc5@dailymotion.com",
     "password": "DcKagA",
     "role": 3
   }, {
     "_id": 7,
-    "first_name": "Codie",
-    "last_name": "Baszkiewicz",
+    "firstName": "Codie",
+    "lastName": "Baszkiewicz",
     "email": "cbaszkiewicz6@google.com.au",
     "password": "FytVoYfQI4ZS",
     "role": 2
   }, {
     "_id": 8,
-    "first_name": "Prescott",
-    "last_name": "Goldwater",
+    "firstName": "Prescott",
+    "lastName": "Goldwater",
     "email": "pgoldwater7@skype.com",
     "password": "2i8bh6Cstspw",
     "role": 2
   }, {
     "_id": 9,
-    "first_name": "Dag",
-    "last_name": "Rosellini",
+    "firstName": "Dag",
+    "lastName": "Rosellini",
     "email": "drosellini8@ezinearticles.com",
     "password": "TyA4ETQ2Y",
     "role": 3
   }, {
     "_id": 10,
-    "first_name": "Umberto",
-    "last_name": "Zanetto",
+    "firstName": "Umberto",
+    "lastName": "Zanetto",
     "email": "uzanetto9@home.pl",
     "password": "W1bsPlpNkH",
     "role": 1
   }, {
     "_id": 11,
-    "first_name": "Sanderson",
-    "last_name": "Cavanagh",
+    "firstName": "Sanderson",
+    "lastName": "Cavanagh",
     "email": "scavanagha@vimeo.com",
     "password": "QJsQGZ1wWQlm",
     "role": 2
   }, {
     "_id": 12,
-    "first_name": "Teirtza",
-    "last_name": "Aymeric",
+    "firstName": "Teirtza",
+    "lastName": "Aymeric",
     "email": "taymericb@ameblo.jp",
     "password": "EhXh5BnFsYP",
     "role": 2
   }, {
     "_id": 13,
-    "first_name": "Bettine",
-    "last_name": "Spurnier",
+    "firstName": "Bettine",
+    "lastName": "Spurnier",
     "email": "bspurnierc@macromedia.com",
     "password": "f9BFOL",
     "role": 1
   }, {
     "_id": 14,
-    "first_name": "Cristen",
-    "last_name": "Raddenbury",
+    "firstName": "Cristen",
+    "lastName": "Raddenbury",
     "email": "craddenburyd@va.gov",
     "password": "eWl7UC9YfR",
     "role": 3
   }, {
     "_id": 15,
-    "first_name": "Carlee",
-    "last_name": "Whistance",
+    "firstName": "Carlee",
+    "lastName": "Whistance",
     "email": "cwhistancee@instagram.com",
     "password": "h6134YF2B",
     "role": 3
   }, {
     "_id": 16,
-    "first_name": "Mireielle",
-    "last_name": "Baugham",
+    "firstName": "Mireielle",
+    "lastName": "Baugham",
     "email": "mbaughamf@yahoo.com",
     "password": "U1Car9O",
     "role": 2
   }, {
     "_id": 17,
-    "first_name": "Jeffie",
-    "last_name": "Cleator",
+    "firstName": "Jeffie",
+    "lastName": "Cleator",
     "email": "jcleatorg@webnode.com",
     "password": "XrTd31",
     "role": 2
   }, {
     "_id": 18,
-    "first_name": "Odie",
-    "last_name": "Shaves",
+    "firstName": "Odie",
+    "lastName": "Shaves",
     "email": "oshavesh@alibaba.com",
     "password": "zY2zTc",
     "role": 3
   }, {
     "_id": 19,
-    "first_name": "Ebenezer",
-    "last_name": "Ellcome",
+    "firstName": "Ebenezer",
+    "lastName": "Ellcome",
     "email": "eellcomei@ihg.com",
     "password": "EqP6sOeO2",
     "role": 1
   }, {
     "_id": 20,
-    "first_name": "Martyn",
-    "last_name": "Dy",
+    "firstName": "Martyn",
+    "lastName": "Dy",
     "email": "mdyj@w3.org",
     "password": "biOAxqf",
     "role": 3
   }, {
     "_id": 21,
-    "first_name": "Gael",
-    "last_name": "Servant",
+    "firstName": "Gael",
+    "lastName": "Servant",
     "email": "gservantk@disqus.com",
     "password": "S5VgGm3MXE",
     "role": 3
   }, {
     "_id": 22,
-    "first_name": "Katee",
-    "last_name": "Stockhill",
+    "firstName": "Katee",
+    "lastName": "Stockhill",
     "email": "kstockhilll@instagram.com",
     "password": "plkvwE1F",
     "role": 1
   }, {
     "_id": 23,
-    "first_name": "Florian",
-    "last_name": "Linford",
+    "firstName": "Florian",
+    "lastName": "Linford",
     "email": "flinfordm@dyndns.org",
     "password": "tNMiUhRcMG8i",
     "role": 2
   }, {
     "_id": 24,
-    "first_name": "Kathryne",
-    "last_name": "Bushill",
+    "firstName": "Kathryne",
+    "lastName": "Bushill",
     "email": "kbushilln@netvibes.com",
     "password": "u5LCyiox0",
     "role": 2
   }, {
     "_id": 25,
-    "first_name": "Christoper",
-    "last_name": "Rustich",
+    "firstName": "Christoper",
+    "lastName": "Rustich",
     "email": "crusticho@cnet.com",
     "password": "FYhySs",
     "role": 2
   }, {
     "_id": 26,
-    "first_name": "Elianore",
-    "last_name": "Deviney",
+    "firstName": "Elianore",
+    "lastName": "Deviney",
     "email": "edevineyp@dailymotion.com",
     "password": "J2yaCbtjb2hf",
     "role": 1
   }, {
     "_id": 27,
-    "first_name": "Alex",
-    "last_name": "Ambrogiotti",
+    "firstName": "Alex",
+    "lastName": "Ambrogiotti",
     "email": "aambrogiottiq@reverbnation.com",
     "password": "jF9Fs2m2",
     "role": 3
   }, {
     "_id": 28,
-    "first_name": "Hilda",
-    "last_name": "Whillock",
+    "firstName": "Hilda",
+    "lastName": "Whillock",
     "email": "hwhillockr@zimbio.com",
     "password": "PVdxZskbDgHG",
     "role": 2
   }, {
     "_id": 29,
-    "first_name": "Traver",
-    "last_name": "Sennett",
+    "firstName": "Traver",
+    "lastName": "Sennett",
     "email": "tsennetts@bing.com",
     "password": "hQ5H3N5j05tf",
     "role": 2
   }, {
     "_id": 30,
-    "first_name": "Adina",
-    "last_name": "McLucky",
+    "firstName": "Adina",
+    "lastName": "McLucky",
     "email": "amcluckyt@loc.gov",
     "password": "hPKVFt95S0Jh",
     "role": 3
   }, {
     "_id": 31,
-    "first_name": "Talia",
-    "last_name": "Hyne",
+    "firstName": "Talia",
+    "lastName": "Hyne",
     "email": "thyneu@arstechnica.com",
     "password": "DKnRp0",
     "role": 3
   }, {
     "_id": 32,
-    "first_name": "Boonie",
-    "last_name": "Bachura",
+    "firstName": "Boonie",
+    "lastName": "Bachura",
     "email": "bbachurav@ezinearticles.com",
     "password": "wYU9gL",
     "role": 1
   }, {
     "_id": 33,
-    "first_name": "Theodor",
-    "last_name": "Moffat",
+    "firstName": "Theodor",
+    "lastName": "Moffat",
     "email": "tmoffatw@jimdo.com",
     "password": "gtKNUgzV",
     "role": 1
   }, {
     "_id": 34,
-    "first_name": "Ad",
-    "last_name": "Andreoletti",
+    "firstName": "Ad",
+    "lastName": "Andreoletti",
     "email": "aandreolettix@discovery.com",
     "password": "upnbiV2qz",
     "role": 2
   }, {
     "_id": 35,
-    "first_name": "Jennie",
-    "last_name": "Soldi",
+    "firstName": "Jennie",
+    "lastName": "Soldi",
     "email": "jsoldiy@washingtonpost.com",
     "password": "6qIDIPV3L",
     "role": 1
   }, {
     "_id": 36,
-    "first_name": "Shirlee",
-    "last_name": "Binns",
+    "firstName": "Shirlee",
+    "lastName": "Binns",
     "email": "sbinnsz@cmu.edu",
     "password": "VpUTgW",
     "role": 1
   }, {
     "_id": 37,
-    "first_name": "Donovan",
-    "last_name": "Jados",
+    "firstName": "Donovan",
+    "lastName": "Jados",
     "email": "djados10@t-online.de",
     "password": "EGNRBfC",
     "role": 2
   }, {
     "_id": 38,
-    "first_name": "Dallis",
-    "last_name": "Green",
+    "firstName": "Dallis",
+    "lastName": "Green",
     "email": "dgreen11@umn.edu",
     "password": "9OAWIo0G",
     "role": 3
   }, {
     "_id": 39,
-    "first_name": "Farlie",
-    "last_name": "Glennon",
+    "firstName": "Farlie",
+    "lastName": "Glennon",
     "email": "fglennon12@t-online.de",
     "password": "ghqu60E",
     "role": 2
   }, {
     "_id": 40,
-    "first_name": "Mack",
-    "last_name": "Pinard",
+    "firstName": "Mack",
+    "lastName": "Pinard",
     "email": "mpinard13@seesaa.net",
     "password": "YoQMFtsQ",
     "role": 3

@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
+import { get } from 'lodash';
 
 export interface ITableColumn {
   title: string;
   key: string;
   hidden?: boolean;
+  pipes?: any[];
+  pipeArgs?: any[][];
 }
 
 @Injectable({
@@ -40,8 +43,16 @@ export class ConfigService {
 
  gardenColumns: ITableColumn[] = [
   {key: "_id", title: "#"},
-  {key: "user", title: "User"},
-  {key: "garden", title: "Plants"},
+   {
+     key: "user",
+     title: "User",
+     pipes: [ConfigService.getSubProperty],
+     pipeArgs: [['firstName', 'lastName']]},
+
+  {key: "garden",
+  title: "Plants",
+  pipes: [ConfigService.getSubProperty],
+  pipeArgs: [['name']]},
   {key: "note", title: "Note"},
  ];
 
@@ -64,4 +75,9 @@ export class ConfigService {
 
 
   constructor () { }
+
+  static getSubProperty(obj: any, ...keys: string[]): string | number | boolean | undefined {
+    return keys.map( key => get(obj, key) ).join(', ');
+  }
+
 }
