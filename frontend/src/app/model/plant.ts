@@ -7,8 +7,9 @@ export class Plant {
   lightDemand: string = '';
   soilDemand: string = '';
   blooming: string = '';
-  utilization: string = '';
-  breeding: string = '';
+  lifeCycles: string = '';
   type: string = '';
-  evergreen: boolean = false;
+  toxic: boolean = false;
+  evergreen: string = '';
+  url: string = '';
 }

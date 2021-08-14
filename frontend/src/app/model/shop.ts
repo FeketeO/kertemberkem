@@ -1,6 +1,8 @@
 export class Shop {
   _id: string = '';
+  name: string = '';
   city: string = '';
   address: string = '';
-  note: string = '';
+  url: string = '';
+  note?: string = '';
 }

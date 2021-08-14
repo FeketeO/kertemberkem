@@ -3,6 +3,7 @@ export class User {
   firstName: string = '';
   lastName: string = '';
   email: string = '';
-  address: string = '';
-  active: boolean = true;
+  password?: string = '';
+  role?: number = 0;
+  accessToken?: string = ''
 }
