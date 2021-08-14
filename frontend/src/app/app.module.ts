@@ -12,8 +12,8 @@ import { UsersComponent } from './page/users/users.component';
 import { PlantsComponent } from './page/plants/plants.component';
 import { GardensComponent } from './page/gardens/gardens.component';
 import { ShopsComponent } from './page/shops/shops.component';
-import { SamplesComponent } from './pages/samples/samples.component';
 import { SampleHortusComponent } from './page/sample-hortus/sample-hortus.component';
+import { DataTableComponent } from './common/data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { SampleHortusComponent } from './page/sample-hortus/sample-hortus.compon
     PlantsComponent,
     GardensComponent,
     ShopsComponent,
-    SamplesComponent,
-    SampleHortusComponent
+    SampleHortusComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
