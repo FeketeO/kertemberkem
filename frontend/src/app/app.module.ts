@@ -13,6 +13,7 @@ import { PlantsComponent } from './page/plants/plants.component';
 import { GardensComponent } from './page/gardens/gardens.component';
 import { ShopsComponent } from './page/shops/shops.component';
 import { SamplesComponent } from './pages/samples/samples.component';
+import { SampleHortusComponent } from './page/sample-hortus/sample-hortus.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SamplesComponent } from './pages/samples/samples.component';
     PlantsComponent,
     GardensComponent,
     ShopsComponent,
-    SamplesComponent
+    SamplesComponent,
+    SampleHortusComponent
   ],
   imports: [
     BrowserModule,

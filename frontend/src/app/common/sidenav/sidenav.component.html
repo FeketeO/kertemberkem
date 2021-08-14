@@ -1,13 +1,13 @@
 <div id="layoutSidenav_nav">
   <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
-      <div class="sb-sidenav-menu">
-          <div class="nav">
-              <div class="sb-sidenav-menu-heading">Core</div>
-              <a class="nav-link" href="index.html">
-                  <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                  Dashboard
-              </a>
-              <div class="sb-sidenav-menu-heading">Interface</div>
+    <div class="sb-sidenav-menu">
+      <div class="nav">
+        <div class="sb-sidenav-menu-heading">Home</div>
+        <a class="nav-link" routerLink="/">
+          <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+          Home
+        </a>
+        <!-- <div class="sb-sidenav-menu-heading">Interface</div>
               <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                   <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                   Layouts
@@ -49,21 +49,33 @@
                           </nav>
                       </div>
                   </nav>
-              </div>
-              <div class="sb-sidenav-menu-heading">Addons</div>
-              <a class="nav-link" href="charts.html">
-                  <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                  Charts
-              </a>
-              <a class="nav-link" href="tables.html">
-                  <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                  Tables
-              </a>
-          </div>
+              </div> -->
+        <div class="sb-sidenav-menu-heading">Pages</div>
+        <a class="nav-link" routerLink="/plants">
+          <div class="sb-nav-link-icon"><i class="fas fa-seedling"></i></div>
+          Plants
+        </a>
+        <a class="nav-link" routerLink="/sampleHortus">
+          <div class="sb-nav-link-icon"><i class="fab fa-pagelines"></i></div>
+          Sample Gardens
+        </a>
+        <a class="nav-link" routerLink="/users">
+          <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+          Users
+        </a>
+        <a class="nav-link" routerLink="/gardens">
+          <div class="sb-nav-link-icon"><i class="fas fa-leaf"></i></div>
+          Users' gardens
+        </a>
+        <a class="nav-link" routerLink="/shops">
+          <div class="sb-nav-link-icon"><i class="fas fa-store-alt"></i></div>
+          Gardening stores
+        </a>
       </div>
-      <div class="sb-sidenav-footer">
-          <div class="small">Logged in as:</div>
-          Start Bootstrap
-      </div>
+    </div>
+    <div class="sb-sidenav-footer">
+      <div class="small">Logged in as:</div>
+      Start Bootstrap
+    </div>
   </nav>
 </div>
