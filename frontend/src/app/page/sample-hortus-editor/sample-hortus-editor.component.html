@@ -1,0 +1,39 @@
+<div class="row">
+  <div *ngIf="sampleHortus$ | async as sampleHortus" class="col-6 offset-3">
+    <form #pForm="ngForm" (ngSubmit)="onSubmit(pForm, sampleHortus)">
+      <input name="_id" type="hidden" [(ngModel)]="sampleHortus._id">
+      <div class="form-group">
+        <label>Name</label>
+        <input [(ngModel)]="sampleHortus.name" name="name" type="text" class="form-control" required>
+        <div [hidden]="pForm.controls?.name?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Plant list</label>
+        <input [(ngModel)]="sampleHortus.plantList" name="plantList" type="text" class="form-control" required>
+        <div [hidden]="pForm.controls?.plantList?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Note</label>
+        <input [(ngModel)]="sampleHortus.note" name="note" type="text" class="form-control">
+        <div [hidden]="pForm.controls?.note?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Link</label>
+        <input [(ngModel)]="sampleHortus.url" name="url" type="text" class="form-control" >
+        <div [hidden]="pForm.controls?.url?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="pForm.invalid" class="btn btn-block btn-primary">
+        <i class="fas fa-save"></i>
+      </button>
+    </form>
+  </div>
+</div>

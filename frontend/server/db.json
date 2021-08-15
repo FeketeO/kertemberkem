@@ -1,5 +1,4 @@
 {
-
   "plants": [
     {
       "_id": "1",
@@ -15,452 +14,451 @@
       "toxic": "false",
       "evergreen": "no",
       "url": "http://www.botanikaland.hu/campanula-carpatica/karpati-harangvirag/"
-},
-{
-  "_id": "2",
-  "name": "Velencei Kutyatej",
-  "latinName": "Euphorbia characias subsp. wulfenii",
-  "colour": "yellowish green",
-  "waterDemand": "modest",
-  "lightDemand": "sun-lover",
-  "soilDemand": "modest",
-  "blooming": "April, May",
-  "lifeCycles": "perennial",
-  "type": "high herbaceous",
-  "toxic": "true",
-  "evergreen": "evergreen",
-  "url": "http://www.botanikaland.hu/euphorbia-characias-subsp.-wulfenii/velencei-kutyatej/"
-},
-{
-  "_id": "3",
-  "name": "Pompás Varjúháj",
-  "latinName": "Sedum spectabile",
-  "colour": "rose",
-  "waterDemand": "modest",
-  "lightDemand": "sun-lover",
-  "soilDemand": "modest",
-  "blooming": "August, September, October",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/sedum-spectabile/pompas-varjuhaj/"
-},
-{
-  "_id": "4",
-  "name": "Keleti Mák",
-  "latinName": "Papaver orientale",
-  "colour": "white, rose, red",
-  "waterDemand": "modest",
-  "lightDemand": "sun-loving",
-  "soilDemand": "humus",
-  "blooming": "July",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/papaver-orientale/keleti-mak/"
-},
-{
-  "_id": "5",
-  "name": "Kerti Harangláb",
-  "latinName": "(Aquilegia vulgaris",
-  "colour": "blue, lilac, white, rose, prurple, ",
-  "waterDemand": "medium",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "May, June",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "true",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/aquilegia/kerti-haranglab/"
-},
-{
-  "_id": "6",
-  "name": "Óriás Díszhagyma",
-  "latinName": "Allium giganteum",
-  "colour": "lilac, purple",
-  "waterDemand": "modest",
-  "lightDemand": "sun-loving",
-  "soilDemand": "humus",
-  "blooming": "May, June",
-  "lifeCycles": "perennial",
-  "type": "high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/allium-giganteum/orias-hagymavirag/"
-},
-{
-  "_id": "7",
-  "name": "Nagyvirágú Macskamenta",
-  "latinName": "(Nepeta grandiflora",
-  "colour": "blue, lilac, white, rose",
-  "waterDemand": "medium",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "July, August",
-  "lifeCycles": "perennial",
-  "type": "high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/nepeta-grandiflora/nagyviragu-macskamenta/"
-},
-{
-  "_id": "8",
-  "name": "Piros Gyűszűvirág",
-  "latinName": "(Digitalis purpurea",
-  "colour": "cream, yellow, rose, white",
-  "waterDemand": "sensitive",
-  "lightDemand": "penumbra",
-  "soilDemand": "modest",
-  "blooming": "July, August, September",
-  "lifeCycles": "biennial",
-  "type": "high herbaceous",
-  "toxic": "true",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/digitalis-purpurea/piros-gyuszuvirag/"
-},
-{
-  "_id": "9",
-  "name": "Sárgaviola",
-  "latinName": "Erysimum cheiri",
-  "colour": "yellow, orange",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-lover",
-  "soilDemand": "calcareous",
-  "blooming": "April, May, June",
-  "lifeCycles": "biennial",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/erysimum-cheiri/sarga-viola/"
-},
-{
-  "_id": "10",
-  "name": "Törpe Lobélia",
-  "latinName": "Lobelia erinus",
-  "colour": "blue, lilac, white, rose",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July, August, September",
-  "lifeCycles": "annual",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/lobelia-erinus/torpe-lobelia/"
-},
-{
-  "_id": "11",
-  "name": "Kerti Sarkantyúka",
-  "latinName": "Tropaeolum majus",
-  "colour": "yellow, red, orange, purple",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "July, August, September, October",
-  "lifeCycles": "annual",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/tropaeolum-majus/sarkantyuka/"
-},
-{
-  "_id": "12",
-  "name": "Lángszínű Sásliliom",
-  "latinName": "(Hemerocallis fulva",
-  "colour": "orange",
-  "waterDemand": "medium",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/hemerocallis-fulva/langszinu-sasliliom/"
-},
-{
-  "_id": "13",
-  "name": "Sásliliom",
-  "latinName": "Hemerocallis",
-  "colour": ", green, brown, purle, orange, yellow, white",
-  "waterDemand": "modest",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/hemerocallis/sasliliom/"
-},
-{
-  "_id": "14",
-  "name": "Cseppecskevirág",
-  "latinName": "Osteospermum ecklonis",
-  "colour": "rose, purple, lilac, rose, white",
-  "waterDemand": "modest",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "July, August, September",
-  "lifeCycles": "perennial",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "evergreen",
-  "url": "http://www.botanikaland.hu/osteospermum-ecklonis/cseppecskevirag/"
-},
-{
-  "_id": "15",
-  "name": "Pompás Gólyaorr",
-  "latinName": "Geranium x magnificum",
-  "colour": "blue, lilac, white",
-  "waterDemand": "sensitive",
-  "lightDemand": "penumbra",
-  "soilDemand": "modest",
-  "blooming": "May, June",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/geranium-x-magnificum/pompas-golyaorr/"
-
-},
-{
-  "_id": "16",
-  "name": "Illatos Ibolya",
-  "latinName": "Viola odorata",
-  "colour": "viola, blue, white, rose",
-  "waterDemand": "sensitive",
-  "lightDemand": "shadow-loving",
-  "soilDemand": "humus",
-  "blooming": "March, April",
-  "lifeCycles": "perennial",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/viola-odorata/illatos-ibolya/"
-},
-{
-  "_id": "17",
-  "name": "Dúsvirágú Petúnia",
-  "latinName": "Calibrachoa x hybrida",
-  "colour": "red, rose, orange, yellow, lilac, white",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-loving",
-  "soilDemand": "humus",
-  "blooming": "June, July, August",
-  "lifeCycles": "anual",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/calibrachoa-x-hybrida/dusviragu-petunia/"
-},
-{
-  "_id": "18",
-  "name": "Pompás Rézvirág",
-  "latinName": "Zinnia elegans",
-  "colour": "yellow, orange, rose, red, green white",
-  "waterDemand": "medium",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July, August, September, October",
-  "lifeCycles": "perennial",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/zinnia-elegans/pompas-rezvirag/"
-},
-{
-  "_id": "19",
-  "name": "Kerti Nebáncsvirág",
-  "latinName": "Impatiens balsamina",
-  "colour": "indigo, rose, lilac, white",
-  "waterDemand": "medium",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July, August, September",
-  "lifeCycles": "annual",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/impatiens-balsamina/kerti-nebancsvirag/"
-},
-{
-  "_id": "20",
-  "name": "Bársonyvirág",
-  "latinName": "Tagetes",
-  "colour": "blue, lilac, white",
-  "waterDemand": "modest",
-  "lightDemand": "sun-loving",
-  "soilDemand": "modest",
-  "blooming": "June, July, August, September, October",
-  "lifeCycles": "annual",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url": "http://www.botanikaland.hu/tagetes/barsonyvirag/"
-},
-{
-  "_id": "21",
-  "name": "Holland Nőszirom",
-  "latinName": "Iris x hollandica",
-  "colour": "white",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-lover",
-  "soilDemand": "sandy",
-  "blooming": "June, July",
-  "lifeCycles": "perennial",
-  "type": "medium-high herbaceous",
-  "toxic": "true",
-  "evergreen": "no",
-  "url":"http://www.botanikaland.hu/iris-x-hollandica/holland-noszirom/"
-},
-{
-  "_id": "22",
-  "name": "Margaréta",
-  "latinName": "Leucanthemum maximum",
-  "colour": "white",
-  "waterDemand": "sensitive",
-  "lightDemand": "sun-lover",
-  "soilDemand": "humus",
-  "blooming": "June, July",
-  "lifeCycles": "perennial",
-  "type": "low herbaceous",
-  "toxic": "false",
-  "evergreen": "no",
-  "url":"http://www.botanikaland.hu/leucanthemum-maximum/margareta/"
-}
-],
+    },
+    {
+      "_id": "2",
+      "name": "Velencei Kutyatej",
+      "latinName": "Euphorbia characias subsp. wulfenii",
+      "colour": "yellowish green",
+      "waterDemand": "modest",
+      "lightDemand": "sun-lover",
+      "soilDemand": "modest",
+      "blooming": "April, May",
+      "lifeCycles": "perennial",
+      "type": "high herbaceous",
+      "toxic": "true",
+      "evergreen": "evergreen",
+      "url": "http://www.botanikaland.hu/euphorbia-characias-subsp.-wulfenii/velencei-kutyatej/"
+    },
+    {
+      "_id": "3",
+      "name": "Pompás Varjúháj",
+      "latinName": "Sedum spectabile",
+      "colour": "rose",
+      "waterDemand": "modest",
+      "lightDemand": "sun-lover",
+      "soilDemand": "modest",
+      "blooming": "August, September, October",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/sedum-spectabile/pompas-varjuhaj/"
+    },
+    {
+      "_id": "4",
+      "name": "Keleti Mák",
+      "latinName": "Papaver orientale",
+      "colour": "white, rose, red",
+      "waterDemand": "modest",
+      "lightDemand": "sun-loving",
+      "soilDemand": "humus",
+      "blooming": "July",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/papaver-orientale/keleti-mak/"
+    },
+    {
+      "_id": "5",
+      "name": "Kerti Harangláb",
+      "latinName": "(Aquilegia vulgaris",
+      "colour": "blue, lilac, white, rose, prurple, ",
+      "waterDemand": "medium",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "May, June",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "true",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/aquilegia/kerti-haranglab/"
+    },
+    {
+      "_id": "6",
+      "name": "Óriás Díszhagyma",
+      "latinName": "Allium giganteum",
+      "colour": "lilac, purple",
+      "waterDemand": "modest",
+      "lightDemand": "sun-loving",
+      "soilDemand": "humus",
+      "blooming": "May, June",
+      "lifeCycles": "perennial",
+      "type": "high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/allium-giganteum/orias-hagymavirag/"
+    },
+    {
+      "_id": "7",
+      "name": "Nagyvirágú Macskamenta",
+      "latinName": "(Nepeta grandiflora",
+      "colour": "blue, lilac, white, rose",
+      "waterDemand": "medium",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "July, August",
+      "lifeCycles": "perennial",
+      "type": "high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/nepeta-grandiflora/nagyviragu-macskamenta/"
+    },
+    {
+      "_id": "8",
+      "name": "Piros Gyűszűvirág",
+      "latinName": "(Digitalis purpurea",
+      "colour": "cream, yellow, rose, white",
+      "waterDemand": "sensitive",
+      "lightDemand": "penumbra",
+      "soilDemand": "modest",
+      "blooming": "July, August, September",
+      "lifeCycles": "biennial",
+      "type": "high herbaceous",
+      "toxic": "true",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/digitalis-purpurea/piros-gyuszuvirag/"
+    },
+    {
+      "_id": "9",
+      "name": "Sárgaviola",
+      "latinName": "Erysimum cheiri",
+      "colour": "yellow, orange",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-lover",
+      "soilDemand": "calcareous",
+      "blooming": "April, May, June",
+      "lifeCycles": "biennial",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/erysimum-cheiri/sarga-viola/"
+    },
+    {
+      "_id": "10",
+      "name": "Törpe Lobélia",
+      "latinName": "Lobelia erinus",
+      "colour": "blue, lilac, white, rose",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July, August, September",
+      "lifeCycles": "annual",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/lobelia-erinus/torpe-lobelia/"
+    },
+    {
+      "_id": "11",
+      "name": "Kerti Sarkantyúka",
+      "latinName": "Tropaeolum majus",
+      "colour": "yellow, red, orange, purple",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "July, August, September, October",
+      "lifeCycles": "annual",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/tropaeolum-majus/sarkantyuka/"
+    },
+    {
+      "_id": "12",
+      "name": "Lángszínű Sásliliom",
+      "latinName": "(Hemerocallis fulva",
+      "colour": "orange",
+      "waterDemand": "medium",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/hemerocallis-fulva/langszinu-sasliliom/"
+    },
+    {
+      "_id": "13",
+      "name": "Sásliliom",
+      "latinName": "Hemerocallis",
+      "colour": ", green, brown, purle, orange, yellow, white",
+      "waterDemand": "modest",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/hemerocallis/sasliliom/"
+    },
+    {
+      "_id": "14",
+      "name": "Cseppecskevirág",
+      "latinName": "Osteospermum ecklonis",
+      "colour": "rose, purple, lilac, rose, white",
+      "waterDemand": "modest",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "July, August, September",
+      "lifeCycles": "perennial",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "evergreen",
+      "url": "http://www.botanikaland.hu/osteospermum-ecklonis/cseppecskevirag/"
+    },
+    {
+      "_id": "15",
+      "name": "Pompás Gólyaorr",
+      "latinName": "Geranium x magnificum",
+      "colour": "blue, lilac, white",
+      "waterDemand": "sensitive",
+      "lightDemand": "penumbra",
+      "soilDemand": "modest",
+      "blooming": "May, June",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/geranium-x-magnificum/pompas-golyaorr/"
+    },
+    {
+      "_id": "16",
+      "name": "Illatos Ibolya",
+      "latinName": "Viola odorata",
+      "colour": "viola, blue, white, rose",
+      "waterDemand": "sensitive",
+      "lightDemand": "shadow-loving",
+      "soilDemand": "humus",
+      "blooming": "March, April",
+      "lifeCycles": "perennial",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/viola-odorata/illatos-ibolya/"
+    },
+    {
+      "_id": "17",
+      "name": "Dúsvirágú Petúnia",
+      "latinName": "Calibrachoa x hybrida",
+      "colour": "red, rose, orange, yellow, lilac, white",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-loving",
+      "soilDemand": "humus",
+      "blooming": "June, July, August",
+      "lifeCycles": "anual",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/calibrachoa-x-hybrida/dusviragu-petunia/"
+    },
+    {
+      "_id": "18",
+      "name": "Pompás Rézvirág",
+      "latinName": "Zinnia elegans",
+      "colour": "yellow, orange, rose, red, green white",
+      "waterDemand": "medium",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July, August, September, October",
+      "lifeCycles": "perennial",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/zinnia-elegans/pompas-rezvirag/"
+    },
+    {
+      "_id": "19",
+      "name": "Kerti Nebáncsvirág",
+      "latinName": "Impatiens balsamina",
+      "colour": "indigo, rose, lilac, white",
+      "waterDemand": "medium",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July, August, September",
+      "lifeCycles": "annual",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/impatiens-balsamina/kerti-nebancsvirag/"
+    },
+    {
+      "_id": "20",
+      "name": "Bársonyvirág",
+      "latinName": "Tagetes",
+      "colour": "blue, lilac, white",
+      "waterDemand": "modest",
+      "lightDemand": "sun-loving",
+      "soilDemand": "modest",
+      "blooming": "June, July, August, September, October",
+      "lifeCycles": "annual",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/tagetes/barsonyvirag/"
+    },
+    {
+      "_id": "21",
+      "name": "Holland Nőszirom",
+      "latinName": "Iris x hollandica",
+      "colour": "white",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-lover",
+      "soilDemand": "sandy",
+      "blooming": "June, July",
+      "lifeCycles": "perennial",
+      "type": "medium-high herbaceous",
+      "toxic": "true",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/iris-x-hollandica/holland-noszirom/"
+    },
+    {
+      "_id": "22",
+      "name": "Margaréta",
+      "latinName": "Leucanthemum maximum",
+      "colour": "white",
+      "waterDemand": "sensitive",
+      "lightDemand": "sun-lover",
+      "soilDemand": "humus",
+      "blooming": "June, July",
+      "lifeCycles": "perennial",
+      "type": "low herbaceous",
+      "toxic": "false",
+      "evergreen": "no",
+      "url": "http://www.botanikaland.hu/leucanthemum-maximum/margareta/"
+    }
+  ],
   "gardens": [
     {
       "_id": "1",
       "user": "Sanderson Cavanagh",
-      "garden" : [
+      "garden": [
         "Törpe Lobélia",
         "Sárgaviola",
         "Piros Gyűszűvirág",
         "Nagyvirágú Macskamenta"
       ],
       "note": ""
-},
-{
-  "_id": "2",
-  "user": "Teirtza Aymeric",
-  "garden" : [
-    "Illatos Ibolya",
-    "Lángszínű Sásliliom",
-    "Bársonyvirág",
-    "Pompás Rézvirág"
-  ],
-  "note": ""
-},
-{
-  "_id": "3",
-  "user": "Carlee Whistance",
-  "garden" : [
-    "Sárgaviola",
-    "Kerti Nebáncsvirág",
-    "Bársonyvirág",
-    "Pompás Rézvirág"
-  ],
-  "note": ""
-},
-{
-  "_id": "4",
-  "user": "Mireielle Baugham",
-  "garden" : [
-    "Sásliliom",
-    "Sárgaviola",
-    "Kerti Sarkantyúka",
-    "Piros Gyűszűvirág"
-  ],
-  "note": ""
-},
-{
-  "_id": "5",
-  "user": "Odie Shaves",
-  "garden" : [
-    "Margaréta",
-    "Lángszínű Sásliliom",
-    "Holland Nőszirom",
-    "Sásliliom"
-  ],
-  "note": ""
-},
-{
-  "_id": "6",
-  "user": "Ebenezer Ellcome",
-  "garden" : [
-    "Cseppecskevirág",
-    "Kerti Nebáncsvirág",
-    "Pompás Rézvirág",
-    "Sásliliom"
-  ],
-  "note": ""
-},
-{
-  "_id": "7",
-  "user": "Gael Servant",
-  "garden" : [
-    "Kerti Sarkantyúka",
-    "Nagyvirágú Macskamenta",
-    "Cseppecskevirág",
-    "Kerti Harangláb"
-  ],
-  "note": ""
-},
-{
-  "_id": "8",
-  "user": "Katee Stockhill",
-  "garden" : [
-    "Margaréta",
-    "Pompás Gólyaorr",
-    "Holland Nőszirom",
-    "Nagyvirágú Macskamenta"
-  ],
-  "note": ""
-},
-{
-  "_id": "9",
-  "user": "Florian Linford",
-  "garden" : [
-    "Pompás Gólyaorr",
-    "Dúsvirágú Petúnia",
-    "Kerti Sarkantyúka",
-    "Kerti Harangláb"
-  ],
-  "note": ""
-},
-{
-  "_id": "10",
-  "user": "Prescott Goldwater",
-  "garden" : [
-    "Kerti Sarkantyúka",
-    "Kerti Harangláb",
-    "Keleti Mák",
-    "Pompás Varjúháj"
-  ],
-  "note": ""
-},
-{
-  "_id": "11",
-  "user": "Dag Rosellini",
-  "garden" : [
-    "Margaréta",
-    "Dúsvirágú Petúnia",
-    "Kerti Sarkantyúka",
-    "Keleti Mák"
-  ],
-  "note": ""
-}
+    },
+    {
+      "_id": "2",
+      "user": "Teirtza Aymeric",
+      "garden": [
+        "Illatos Ibolya",
+        "Lángszínű Sásliliom",
+        "Bársonyvirág",
+        "Pompás Rézvirág"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "3",
+      "user": "Carlee Whistance",
+      "garden": [
+        "Sárgaviola",
+        "Kerti Nebáncsvirág",
+        "Bársonyvirág",
+        "Pompás Rézvirág"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "4",
+      "user": "Mireielle Baugham",
+      "garden": [
+        "Sásliliom",
+        "Sárgaviola",
+        "Kerti Sarkantyúka",
+        "Piros Gyűszűvirág"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "5",
+      "user": "Odie Shaves",
+      "garden": [
+        "Margaréta",
+        "Lángszínű Sásliliom",
+        "Holland Nőszirom",
+        "Sásliliom"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "6",
+      "user": "Ebenezer Ellcome",
+      "garden": [
+        "Cseppecskevirág",
+        "Kerti Nebáncsvirág",
+        "Pompás Rézvirág",
+        "Sásliliom"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "7",
+      "user": "Gael Servant",
+      "garden": [
+        "Kerti Sarkantyúka",
+        "Nagyvirágú Macskamenta",
+        "Cseppecskevirág",
+        "Kerti Harangláb"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "8",
+      "user": "Katee Stockhill",
+      "garden": [
+        "Margaréta",
+        "Pompás Gólyaorr",
+        "Holland Nőszirom",
+        "Nagyvirágú Macskamenta"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "9",
+      "user": "Florian Linford",
+      "garden": [
+        "Pompás Gólyaorr",
+        "Dúsvirágú Petúnia",
+        "Kerti Sarkantyúka",
+        "Kerti Harangláb"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "10",
+      "user": "Prescott Goldwater",
+      "garden": [
+        "Kerti Sarkantyúka",
+        "Kerti Harangláb",
+        "Keleti Mák",
+        "Pompás Varjúháj"
+      ],
+      "note": ""
+    },
+    {
+      "_id": "11",
+      "user": "Dag Rosellini",
+      "garden": [
+        "Margaréta",
+        "Dúsvirágú Petúnia",
+        "Kerti Sarkantyúka",
+        "Keleti Mák"
+      ],
+      "note": ""
+    }
   ],
   "samples": [
     {
       "_id": "1",
       "name": "Sun lovers",
-      "plantList" : [
+      "plantList": [
         "A: Velencei Kutyatej ",
         "B: Pompás Varjúháj ",
         "C: Keleti Mák ",
@@ -476,7 +474,7 @@
     {
       "_id": "2",
       "name": "Nice summertime",
-      "plantList" : [
+      "plantList": [
         "A: Törpe Lobélia ",
         "B: Kerti Sarkantyúka ",
         "C: Lángszínű Sásliliom ",
@@ -488,7 +486,7 @@
     {
       "_id": "3",
       "name": "Low border",
-      "plantList" : [
+      "plantList": [
         "A: Kerti Sarkantyúka ",
         "B: Cseppecskevirág ",
         "C: Pompás Gólyaorr "
@@ -499,7 +497,7 @@
     {
       "_id": "4",
       "name": "All white",
-      "plantList" : [
+      "plantList": [
         "A: Illatos Ibolya ",
         "B: Dúsvirágú Petúnia",
         "C: Pompás Rézvirág ",
@@ -512,374 +510,408 @@
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/7_1.jpg"
     }
   ],
-  "users":
-  [
+  "users": [
     {
-    "_id": 1,
-    "firstName": "Addison",
-    "lastName": "Renehan",
-    "email": "arenehan0@ftc.gov",
-    "password": "hG8FuS",
-    "role": 2
-  }, {
-    "_id": 2,
-    "firstName": "Devon",
-    "lastName": "Bengle",
-    "email": "dbengle1@w3.org",
-    "password": "phbd324BQKY",
-    "role": 2
-  }, {
-    "_id": 3,
-    "firstName": "Jennie",
-    "lastName": "Gimson",
-    "email": "jgimson2@whitehouse.gov",
-    "password": "h22Oz8NkF",
-    "role": 3
-  }, {
-    "_id": 4,
-    "firstName": "Cletus",
-    "lastName": "Nutbean",
-    "email": "cnutbean3@delicious.com",
-    "password": "qvmrAxFIQh",
-    "role": 1
-  }, {
-    "_id": 5,
-    "firstName": "Waverley",
-    "lastName": "Tooth",
-    "email": "wtooth4@lulu.com",
-    "password": "tYYUxoy",
-    "role": 1
-  }, {
-    "_id": 6,
-    "firstName": "Christyna",
-    "lastName": "Luc",
-    "email": "cluc5@dailymotion.com",
-    "password": "DcKagA",
-    "role": 3
-  }, {
-    "_id": 7,
-    "firstName": "Codie",
-    "lastName": "Baszkiewicz",
-    "email": "cbaszkiewicz6@google.com.au",
-    "password": "FytVoYfQI4ZS",
-    "role": 2
-  }, {
-    "_id": 8,
-    "firstName": "Prescott",
-    "lastName": "Goldwater",
-    "email": "pgoldwater7@skype.com",
-    "password": "2i8bh6Cstspw",
-    "role": 2
-  }, {
-    "_id": 9,
-    "firstName": "Dag",
-    "lastName": "Rosellini",
-    "email": "drosellini8@ezinearticles.com",
-    "password": "TyA4ETQ2Y",
-    "role": 3
-  }, {
-    "_id": 10,
-    "firstName": "Umberto",
-    "lastName": "Zanetto",
-    "email": "uzanetto9@home.pl",
-    "password": "W1bsPlpNkH",
-    "role": 1
-  }, {
-    "_id": 11,
-    "firstName": "Sanderson",
-    "lastName": "Cavanagh",
-    "email": "scavanagha@vimeo.com",
-    "password": "QJsQGZ1wWQlm",
-    "role": 2
-  }, {
-    "_id": 12,
-    "firstName": "Teirtza",
-    "lastName": "Aymeric",
-    "email": "taymericb@ameblo.jp",
-    "password": "EhXh5BnFsYP",
-    "role": 2
-  }, {
-    "_id": 13,
-    "firstName": "Bettine",
-    "lastName": "Spurnier",
-    "email": "bspurnierc@macromedia.com",
-    "password": "f9BFOL",
-    "role": 1
-  }, {
-    "_id": 14,
-    "firstName": "Cristen",
-    "lastName": "Raddenbury",
-    "email": "craddenburyd@va.gov",
-    "password": "eWl7UC9YfR",
-    "role": 3
-  }, {
-    "_id": 15,
-    "firstName": "Carlee",
-    "lastName": "Whistance",
-    "email": "cwhistancee@instagram.com",
-    "password": "h6134YF2B",
-    "role": 3
-  }, {
-    "_id": 16,
-    "firstName": "Mireielle",
-    "lastName": "Baugham",
-    "email": "mbaughamf@yahoo.com",
-    "password": "U1Car9O",
-    "role": 2
-  }, {
-    "_id": 17,
-    "firstName": "Jeffie",
-    "lastName": "Cleator",
-    "email": "jcleatorg@webnode.com",
-    "password": "XrTd31",
-    "role": 2
-  }, {
-    "_id": 18,
-    "firstName": "Odie",
-    "lastName": "Shaves",
-    "email": "oshavesh@alibaba.com",
-    "password": "zY2zTc",
-    "role": 3
-  }, {
-    "_id": 19,
-    "firstName": "Ebenezer",
-    "lastName": "Ellcome",
-    "email": "eellcomei@ihg.com",
-    "password": "EqP6sOeO2",
-    "role": 1
-  }, {
-    "_id": 20,
-    "firstName": "Martyn",
-    "lastName": "Dy",
-    "email": "mdyj@w3.org",
-    "password": "biOAxqf",
-    "role": 3
-  }, {
-    "_id": 21,
-    "firstName": "Gael",
-    "lastName": "Servant",
-    "email": "gservantk@disqus.com",
-    "password": "S5VgGm3MXE",
-    "role": 3
-  }, {
-    "_id": 22,
-    "firstName": "Katee",
-    "lastName": "Stockhill",
-    "email": "kstockhilll@instagram.com",
-    "password": "plkvwE1F",
-    "role": 1
-  }, {
-    "_id": 23,
-    "firstName": "Florian",
-    "lastName": "Linford",
-    "email": "flinfordm@dyndns.org",
-    "password": "tNMiUhRcMG8i",
-    "role": 2
-  }, {
-    "_id": 24,
-    "firstName": "Kathryne",
-    "lastName": "Bushill",
-    "email": "kbushilln@netvibes.com",
-    "password": "u5LCyiox0",
-    "role": 2
-  }, {
-    "_id": 25,
-    "firstName": "Christoper",
-    "lastName": "Rustich",
-    "email": "crusticho@cnet.com",
-    "password": "FYhySs",
-    "role": 2
-  }, {
-    "_id": 26,
-    "firstName": "Elianore",
-    "lastName": "Deviney",
-    "email": "edevineyp@dailymotion.com",
-    "password": "J2yaCbtjb2hf",
-    "role": 1
-  }, {
-    "_id": 27,
-    "firstName": "Alex",
-    "lastName": "Ambrogiotti",
-    "email": "aambrogiottiq@reverbnation.com",
-    "password": "jF9Fs2m2",
-    "role": 3
-  }, {
-    "_id": 28,
-    "firstName": "Hilda",
-    "lastName": "Whillock",
-    "email": "hwhillockr@zimbio.com",
-    "password": "PVdxZskbDgHG",
-    "role": 2
-  }, {
-    "_id": 29,
-    "firstName": "Traver",
-    "lastName": "Sennett",
-    "email": "tsennetts@bing.com",
-    "password": "hQ5H3N5j05tf",
-    "role": 2
-  }, {
-    "_id": 30,
-    "firstName": "Adina",
-    "lastName": "McLucky",
-    "email": "amcluckyt@loc.gov",
-    "password": "hPKVFt95S0Jh",
-    "role": 3
-  }, {
-    "_id": 31,
-    "firstName": "Talia",
-    "lastName": "Hyne",
-    "email": "thyneu@arstechnica.com",
-    "password": "DKnRp0",
-    "role": 3
-  }, {
-    "_id": 32,
-    "firstName": "Boonie",
-    "lastName": "Bachura",
-    "email": "bbachurav@ezinearticles.com",
-    "password": "wYU9gL",
-    "role": 1
-  }, {
-    "_id": 33,
-    "firstName": "Theodor",
-    "lastName": "Moffat",
-    "email": "tmoffatw@jimdo.com",
-    "password": "gtKNUgzV",
-    "role": 1
-  }, {
-    "_id": 34,
-    "firstName": "Ad",
-    "lastName": "Andreoletti",
-    "email": "aandreolettix@discovery.com",
-    "password": "upnbiV2qz",
-    "role": 2
-  }, {
-    "_id": 35,
-    "firstName": "Jennie",
-    "lastName": "Soldi",
-    "email": "jsoldiy@washingtonpost.com",
-    "password": "6qIDIPV3L",
-    "role": 1
-  }, {
-    "_id": 36,
-    "firstName": "Shirlee",
-    "lastName": "Binns",
-    "email": "sbinnsz@cmu.edu",
-    "password": "VpUTgW",
-    "role": 1
-  }, {
-    "_id": 37,
-    "firstName": "Donovan",
-    "lastName": "Jados",
-    "email": "djados10@t-online.de",
-    "password": "EGNRBfC",
-    "role": 2
-  }, {
-    "_id": 38,
-    "firstName": "Dallis",
-    "lastName": "Green",
-    "email": "dgreen11@umn.edu",
-    "password": "9OAWIo0G",
-    "role": 3
-  }, {
-    "_id": 39,
-    "firstName": "Farlie",
-    "lastName": "Glennon",
-    "email": "fglennon12@t-online.de",
-    "password": "ghqu60E",
-    "role": 2
-  }, {
-    "_id": 40,
-    "firstName": "Mack",
-    "lastName": "Pinard",
-    "email": "mpinard13@seesaa.net",
-    "password": "YoQMFtsQ",
-    "role": 3
-  }
-],
-   "shops" :
-   [
-{
-  "_id": "1",
-  "name": "Oázis Kertészet - Budapest, Pasarét",
-  "city": "Budapest",
-  "address": "Zilah u. 6, 1022",
-  "url": "https://oazis.hu/",
-  "note": ""
-},
-{
-  "_id": "2",
-  "name": "Safru",
-  "city": "Budapest",
-  "address": " Budaörsi út, 1112",
-  "url": "http://safru.hu/",
-  "note": ""
-},
-{
-  "_id": "3",
-  "name": "Kelenvölgyi Díszfaiskola",
-  "city": "Budapest",
-  "address": "Balatoni út 143, 1112",
-  "url": "http://kelenvolgyidiszfaiskola.lapunk.hu/",
-  "note": ""
-},
-{
-  "_id": "4",
-  "name": "Fitoland Belvárosi Díszfaiskola",
-  "city": "Budapest",
-  "address": "Edvi Illés út 25, 1083",
-  "url": "https://www.fitoland.hu/diszfaiskola",
-  "note": ""
-},
-{
-  "_id": "5",
-  "name": "Négy Évszak Kertészet",
-  "city": "Balatonszabadi",
-  "address": "Alsópáskom 1, 8651",
-  "url": "http://www.negyevszakkerteszet.hu/",
-  "note": ""
-},
-{
-  "_id": "6",
-  "name": "Balaskó kertészet",
-  "city": "Csopak",
-  "address": "Lóczy Lajos u. 2, 8229",
-  "url": "https://balasko-kerteszet.business.site/",
-  "note": ""
-},
-{
-  "_id": "7",
-  "name": "Oázis Kertészet, Jászberény",
-  "city": "Jászberény",
-  "address": "Nagykátai út 17, 5100",
-  "url": "https://oazis.hu/",
-  "note": ""
-},
-{
-  "_id": "8",
-  "name": "Maroti Díszfaiskola Kft",
-  "city": "Tóalmás",
-  "address": "Peresi dűlő, 2252",
-  "url": "http://marotidiszfaiskola.hu/en/home/",
-  "note": ""
-},
-{
-  "_id": "9",
-  "name": "Hegede Kertészeti Kft.",
-  "city": "Helvécia",
-  "address": "Alsótelepi dűlő 5, 6034",
-  "url": "https://hegede.hu/en/home-2/",
-  "note": ""
-},
-{
-  "_id": "10",
-  "name": "Bagosi Kertészeti Áruda",
-  "city": "Kecskemét",
-  "address": "Nyugati körút, 6000",
-  "url": "https://bagosikert.hu/en/",
-  "note": ""
+      "_id": 1,
+      "firstName": "Addison",
+      "lastName": "Renehan",
+      "email": "arenehan0@ftc.gov",
+      "password": "$2a$10$yNdNwCUwW7glQMTGl11oXOY87ll8yb9WguwE/IWIcLmFpfc8gyyc2",
+      "role": 2
+    },
+    {
+      "_id": 2,
+      "firstName": "Devon",
+      "lastName": "Bengle",
+      "email": "dbengle1@w3.org",
+      "password": "$2a$10$qiRlIUwBaDNS8dT2gzAeBe5MnJYfCIMGmZqjoONOnNEaakCNiDFA2",
+      "role": 2
+    },
+    {
+      "_id": 3,
+      "firstName": "Jennie",
+      "lastName": "Gimson",
+      "email": "jgimson2@whitehouse.gov",
+      "password": "$2a$10$VAJU7WF9SuKw6n4uDDLA.eLnUonUwTHSWm1W2OHu.ZbtnOOe2NSeW",
+      "role": 3
+    },
+    {
+      "_id": 4,
+      "firstName": "Cletus",
+      "lastName": "Nutbean",
+      "email": "cnutbean3@delicious.com",
+      "password": "qvmrAxFIQh",
+      "role": 1
+    },
+    {
+      "_id": 5,
+      "firstName": "Waverley",
+      "lastName": "Tooth",
+      "email": "wtooth4@lulu.com",
+      "password": "tYYUxoy",
+      "role": 1
+    },
+    {
+      "_id": 6,
+      "firstName": "Christyna",
+      "lastName": "Luc",
+      "email": "cluc5@dailymotion.com",
+      "password": "DcKagA",
+      "role": 3
+    },
+    {
+      "_id": 7,
+      "firstName": "Codie",
+      "lastName": "Baszkiewicz",
+      "email": "cbaszkiewicz6@google.com.au",
+      "password": "FytVoYfQI4ZS",
+      "role": 2
+    },
+    {
+      "_id": 8,
+      "firstName": "Prescott",
+      "lastName": "Goldwater",
+      "email": "pgoldwater7@skype.com",
+      "password": "2i8bh6Cstspw",
+      "role": 2
+    },
+    {
+      "_id": 9,
+      "firstName": "Dag",
+      "lastName": "Rosellini",
+      "email": "drosellini8@ezinearticles.com",
+      "password": "TyA4ETQ2Y",
+      "role": 3
+    },
+    {
+      "_id": 10,
+      "firstName": "Umberto",
+      "lastName": "Zanetto",
+      "email": "uzanetto9@home.pl",
+      "password": "W1bsPlpNkH",
+      "role": 1
+    },
+    {
+      "_id": 11,
+      "firstName": "Sanderson",
+      "lastName": "Cavanagh",
+      "email": "scavanagha@vimeo.com",
+      "password": "QJsQGZ1wWQlm",
+      "role": 2
+    },
+    {
+      "_id": 12,
+      "firstName": "Teirtza",
+      "lastName": "Aymeric",
+      "email": "taymericb@ameblo.jp",
+      "password": "EhXh5BnFsYP",
+      "role": 2
+    },
+    {
+      "_id": 13,
+      "firstName": "Bettine",
+      "lastName": "Spurnier",
+      "email": "bspurnierc@macromedia.com",
+      "password": "f9BFOL",
+      "role": 1
+    },
+    {
+      "_id": 14,
+      "firstName": "Cristen",
+      "lastName": "Raddenbury",
+      "email": "craddenburyd@va.gov",
+      "password": "eWl7UC9YfR",
+      "role": 3
+    },
+    {
+      "_id": 15,
+      "firstName": "Carlee",
+      "lastName": "Whistance",
+      "email": "cwhistancee@instagram.com",
+      "password": "h6134YF2B",
+      "role": 3
+    },
+    {
+      "_id": 16,
+      "firstName": "Mireielle",
+      "lastName": "Baugham",
+      "email": "mbaughamf@yahoo.com",
+      "password": "U1Car9O",
+      "role": 2
+    },
+    {
+      "_id": 17,
+      "firstName": "Jeffie",
+      "lastName": "Cleator",
+      "email": "jcleatorg@webnode.com",
+      "password": "XrTd31",
+      "role": 2
+    },
+    {
+      "_id": 18,
+      "firstName": "Odie",
+      "lastName": "Shaves",
+      "email": "oshavesh@alibaba.com",
+      "password": "zY2zTc",
+      "role": 3
+    },
+    {
+      "_id": 19,
+      "firstName": "Ebenezer",
+      "lastName": "Ellcome",
+      "email": "eellcomei@ihg.com",
+      "password": "EqP6sOeO2",
+      "role": 1
+    },
+    {
+      "_id": 20,
+      "firstName": "Martyn",
+      "lastName": "Dy",
+      "email": "mdyj@w3.org",
+      "password": "biOAxqf",
+      "role": 3
+    },
+    {
+      "_id": 21,
+      "firstName": "Gael",
+      "lastName": "Servant",
+      "email": "gservantk@disqus.com",
+      "password": "S5VgGm3MXE",
+      "role": 3
+    },
+    {
+      "_id": 22,
+      "firstName": "Katee",
+      "lastName": "Stockhill",
+      "email": "kstockhilll@instagram.com",
+      "password": "plkvwE1F",
+      "role": 1
+    },
+    {
+      "_id": 23,
+      "firstName": "Florian",
+      "lastName": "Linford",
+      "email": "flinfordm@dyndns.org",
+      "password": "tNMiUhRcMG8i",
+      "role": 2
+    },
+    {
+      "_id": 24,
+      "firstName": "Kathryne",
+      "lastName": "Bushill",
+      "email": "kbushilln@netvibes.com",
+      "password": "u5LCyiox0",
+      "role": 2
+    },
+    {
+      "_id": 25,
+      "firstName": "Christoper",
+      "lastName": "Rustich",
+      "email": "crusticho@cnet.com",
+      "password": "FYhySs",
+      "role": 2
+    },
+    {
+      "_id": 26,
+      "firstName": "Elianore",
+      "lastName": "Deviney",
+      "email": "edevineyp@dailymotion.com",
+      "password": "J2yaCbtjb2hf",
+      "role": 1
+    },
+    {
+      "_id": 27,
+      "firstName": "Alex",
+      "lastName": "Ambrogiotti",
+      "email": "aambrogiottiq@reverbnation.com",
+      "password": "jF9Fs2m2",
+      "role": 3
+    },
+    {
+      "_id": 28,
+      "firstName": "Hilda",
+      "lastName": "Whillock",
+      "email": "hwhillockr@zimbio.com",
+      "password": "PVdxZskbDgHG",
+      "role": 2
+    },
+    {
+      "_id": 29,
+      "firstName": "Traver",
+      "lastName": "Sennett",
+      "email": "tsennetts@bing.com",
+      "password": "hQ5H3N5j05tf",
+      "role": 2
+    },
+    {
+      "_id": 30,
+      "firstName": "Adina",
+      "lastName": "McLucky",
+      "email": "amcluckyt@loc.gov",
+      "password": "hPKVFt95S0Jh",
+      "role": 3
+    },
+    {
+      "_id": 31,
+      "firstName": "Talia",
+      "lastName": "Hyne",
+      "email": "thyneu@arstechnica.com",
+      "password": "DKnRp0",
+      "role": 3
+    },
+    {
+      "_id": 32,
+      "firstName": "Boonie",
+      "lastName": "Bachura",
+      "email": "bbachurav@ezinearticles.com",
+      "password": "wYU9gL",
+      "role": 1
+    },
+    {
+      "_id": 33,
+      "firstName": "Theodor",
+      "lastName": "Moffat",
+      "email": "tmoffatw@jimdo.com",
+      "password": "gtKNUgzV",
+      "role": 1
+    },
+    {
+      "_id": 34,
+      "firstName": "Ad",
+      "lastName": "Andreoletti",
+      "email": "aandreolettix@discovery.com",
+      "password": "upnbiV2qz",
+      "role": 2
+    },
+    {
+      "_id": 35,
+      "firstName": "Jennie",
+      "lastName": "Soldi",
+      "email": "jsoldiy@washingtonpost.com",
+      "password": "6qIDIPV3L",
+      "role": 1
+    },
+    {
+      "_id": 36,
+      "firstName": "Shirlee",
+      "lastName": "Binns",
+      "email": "sbinnsz@cmu.edu",
+      "password": "VpUTgW",
+      "role": 1
+    },
+    {
+      "_id": 37,
+      "firstName": "Donovan",
+      "lastName": "Jados",
+      "email": "djados10@t-online.de",
+      "password": "EGNRBfC",
+      "role": 2
+    },
+    {
+      "_id": 38,
+      "firstName": "Dallis",
+      "lastName": "Green",
+      "email": "dgreen11@umn.edu",
+      "password": "9OAWIo0G",
+      "role": 3
+    },
+    {
+      "_id": 39,
+      "firstName": "Farlie",
+      "lastName": "Glennon",
+      "email": "fglennon12@t-online.de",
+      "password": "ghqu60E",
+      "role": 2
+    },
+    {
+      "_id": 40,
+      "firstName": "Mack",
+      "lastName": "Pinard",
+      "email": "mpinard13@seesaa.net",
+      "password": "YoQMFtsQ",
+      "role": 3
+    }
+  ],
+  "shops": [
+    {
+      "_id": "1",
+      "name": "Oázis Kertészet - Budapest, Pasarét",
+      "city": "Budapest",
+      "address": "Zilah u. 6, 1022",
+      "url": "https://oazis.hu/",
+      "note": ""
+    },
+    {
+      "_id": "2",
+      "name": "Safru",
+      "city": "Budapest",
+      "address": " Budaörsi út, 1112",
+      "url": "http://safru.hu/",
+      "note": ""
+    },
+    {
+      "_id": "3",
+      "name": "Kelenvölgyi Díszfaiskola",
+      "city": "Budapest",
+      "address": "Balatoni út 143, 1112",
+      "url": "http://kelenvolgyidiszfaiskola.lapunk.hu/",
+      "note": ""
+    },
+    {
+      "_id": "4",
+      "name": "Fitoland Belvárosi Díszfaiskola",
+      "city": "Budapest",
+      "address": "Edvi Illés út 25, 1083",
+      "url": "https://www.fitoland.hu/diszfaiskola",
+      "note": ""
+    },
+    {
+      "_id": "5",
+      "name": "Négy Évszak Kertészet",
+      "city": "Balatonszabadi",
+      "address": "Alsópáskom 1, 8651",
+      "url": "http://www.negyevszakkerteszet.hu/",
+      "note": ""
+    },
+    {
+      "_id": "6",
+      "name": "Balaskó kertészet",
+      "city": "Csopak",
+      "address": "Lóczy Lajos u. 2, 8229",
+      "url": "https://balasko-kerteszet.business.site/",
+      "note": ""
+    },
+    {
+      "_id": "7",
+      "name": "Oázis Kertészet, Jászberény",
+      "city": "Jászberény",
+      "address": "Nagykátai út 17, 5100",
+      "url": "https://oazis.hu/",
+      "note": ""
+    },
+    {
+      "_id": "8",
+      "name": "Maroti Díszfaiskola Kft",
+      "city": "Tóalmás",
+      "address": "Peresi dűlő, 2252",
+      "url": "http://marotidiszfaiskola.hu/en/home/",
+      "note": ""
+    },
+    {
+      "_id": "9",
+      "name": "Hegede Kertészeti Kft.",
+      "city": "Helvécia",
+      "address": "Alsótelepi dűlő 5, 6034",
+      "url": "https://hegede.hu/en/home-2/",
+      "note": ""
+    },
+    {
+      "_id": "10",
+      "name": "Bagosi Kertészeti Áruda",
+      "city": "Kecskemét",
+      "address": "Nyugati körút, 6000",
+      "url": "https://bagosikert.hu/en/",
+      "note": ""
+    }
+  ]
 }
-
-   ]
-}
-
-

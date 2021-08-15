@@ -6,5 +6,5 @@ export class SampleHortus {
   name: string = '';
   plantList : Plant[] = [];
   note?: string = '';
-  url: string = ''
+  url?: string = ''
 }

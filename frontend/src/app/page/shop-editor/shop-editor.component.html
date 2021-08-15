@@ -1,0 +1,79 @@
+
+<div class="row">
+  <div *ngIf="shop$ | async as shop" class="col-6 offset-3">
+    <form #pForm="ngForm" (ngSubmit)="onSubmit(pForm, shop)">
+      <input name="_id" type="hidden" [(ngModel)]="shop._id">
+      <div class="form-group">
+        <label>Name</label>
+        <input
+          [(ngModel)]="shop.name"
+          name="name"
+          type="text"
+          class="form-control"
+          required
+          >
+        <div [hidden]="pForm.controls?.name?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>City</label>
+        <input
+          [(ngModel)]="shop.city"
+          name="city"
+          type="text"
+          class="form-control"
+          required
+          >
+        <div [hidden]="pForm.controls?.city?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input
+          [(ngModel)]="shop.address"
+          name="address"
+          type="text"
+          class="form-control"
+          required
+          >
+        <div [hidden]="pForm.controls?.address?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Link</label>
+        <input
+          [(ngModel)]="shop.url"
+          name="url"
+          type="text"
+          class="form-control"
+          required
+          >
+        <div [hidden]="pForm.controls?.url?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Notes</label>
+        <input
+          [(ngModel)]="shop.note"
+          name="note"
+          type="text"
+          class="form-control"
+
+          >
+        <div [hidden]="pForm.controls?.note?.valid" class="error-message">
+          Wrong data!
+        </div>
+      </div>
+
+
+      <button type="submit" [disabled]="pForm.invalid" class="btn btn-block btn-primary">
+        <i class="fas fa-save"></i>
+      </button>
+    </form>
+  </div>
+</div>
+

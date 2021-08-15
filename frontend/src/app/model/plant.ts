@@ -9,7 +9,7 @@ export class Plant {
   blooming: string = '';
   lifeCycles: string = '';
   type: string = '';
-  toxic: boolean = false;
+  toxic: string = '';
   evergreen: string = '';
   url: string = '';
 }

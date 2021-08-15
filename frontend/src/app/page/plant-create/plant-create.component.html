@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col-6 offset-3">
+    <form #plantForm="ngForm" (ngSubmit)="onSave(plantForm)">
+      <div class="form-group">
+        <label for="">Name</label>
+        <input class="form-control" type="text" name="name" [(ngModel)]="plant.name">
+      </div>
+      <div class="form-group">
+        <label for="">Latin Name</label>
+        <input class="form-control" type="text" name="latinName" [(ngModel)]="plant.latinName">
+      </div>
+      <div class="form-group">
+        <label for="">Colour</label>
+        <input class="form-control" type="text" name="colour" [(ngModel)]="plant.colour">
+      </div>
+      <div class="form-group">
+        <label for="">Need of water</label>
+        <input class="form-control" type="text" name="waterDemand" [(ngModel)]="plant.waterDemand">
+      </div>
+      <div class="form-group">
+        <label for="">Need of light</label>
+        <input class="form-control" type="text" name="lightDemand" [(ngModel)]="plant.lightDemand">
+      </div>
+      <div class="form-group">
+        <label for="">Optimal soil</label>
+        <input class="form-control" type="text" name="soilDemand" [(ngModel)]="plant.soilDemand">
+      </div>
+      <div class="form-group">
+        <label for="">Blooming</label>
+        <input class="form-control" type="text" name="blooming" [(ngModel)]="plant.blooming">
+      </div>
+      <div class="form-group">
+        <label for="">Lifespan</label>
+        <input class="form-control" type="text" name="lifeCycles" [(ngModel)]="plant.lifeCycles">
+      </div>
+      <div class="form-group">
+        <label for="">Type</label>
+        <input class="form-control" type="text" name="type" [(ngModel)]="plant.type">
+      </div>
+      <div class="form-group">
+        <label for="">Toxic</label>
+        <input class="form-control" type="text" name="toxic" [(ngModel)]="plant.toxic">
+      </div>
+      <div class="form-group">
+        <label for="">Evergreen</label>
+        <input class="form-control" type="text" name="evergreen" [(ngModel)]="plant.evergreen">
+      </div>
+
+    <div class="form-group">
+      <label for="">Link</label>
+      <input class="form-control" type="text" name="url" [(ngModel)]="plant.url">
+    </div>
+
+      <button type="submit" [disabled]="plantForm.invalid" class="btn btn-primary w-100 mt-3 mb-3">
+        Add a new plant
+      </button>
+    </form>
+  </div>
+

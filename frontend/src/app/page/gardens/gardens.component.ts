@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Garden } from 'src/app/model/garden';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -16,10 +17,22 @@ export class GardensComponent implements OnInit {
 
   constructor(
     private config: ConfigService,
-    private gardenService: GardenService
+    private gardenService: GardenService,
+    private router: Router,
+
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSelectOne(garden: Garden): void {
+    this.router.navigate(['/', 'gardens', 'edit', garden._id]);
+  }
+
+  onDeleteOne(garden: Garden): void {
+    this.gardenService.delete(garden._id).subscribe(
+      () => this.list$ = this.gardenService.getAll()
+      )
   }
 
 }

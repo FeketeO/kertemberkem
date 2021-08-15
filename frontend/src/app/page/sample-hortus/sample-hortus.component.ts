@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { SampleHortus } from 'src/app/model/sample-hortus';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -16,10 +17,20 @@ export class SampleHortusComponent implements OnInit {
 
   constructor(
     private config: ConfigService,
-    private sampleService: SampleService
+    private sampleService: SampleService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+  onSelectOne(sampleHortus: SampleHortus): void {
+    this.router.navigate(['/', 'sampleHortus', 'edit', sampleHortus._id]);
+  }
+
+  onDeleteOne(sampleHortus: SampleHortus): void {
+    this.sampleService.delete(sampleHortus._id).subscribe(
+      () => this.list$ = this.sampleService.getAll()
+      )
   }
 
 }

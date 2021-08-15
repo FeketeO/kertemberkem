@@ -3,11 +3,13 @@
     <thead>
       <tr>
         <th *ngFor="let col of tableColumns"> {{ col.title }} </th>
+        <th></th>
       </tr>
     </thead>
     <tfoot>
       <tr>
         <th *ngFor="let col of tableColumns"> {{ col.title }} </th>
+        <th></th>
       </tr>
     </tfoot>
     <tbody>
@@ -15,6 +17,15 @@
         <td *ngFor="let col of tableColumns">
           {{ row[col.key] }}
         </td>
+        <div class="btn-group" role="group" aria-label="">
+          <button (click)="onSelect(row)" class="btn btn-info btn-sm">
+                  <i class="fas fa-pen-nib"></i>
+          </button>
+          <button (click)="onDelete(row)"
+          class="btn btn-danger btn-sm">
+                  <i class="fas fa-trash-alt"></i>
+          </button>
+      </div>
       </tr>
     </tbody>
   </table>

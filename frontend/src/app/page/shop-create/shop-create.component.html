@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-6 offset-3">
+    <form #shopForm="ngForm" (ngSubmit)="onSave(shopForm)">
+      <div class="form-group">
+        <label for="">Name</label>
+        <input class="form-control" type="text" name="name" [(ngModel)]="shop.name">
+      </div>
+      <div class="form-group">
+        <label for="">City</label>
+        <input class="form-control" type="text" name="city" [(ngModel)]="shop.city">
+      </div>
+      <div class="form-group">
+        <label for="">Address</label>
+        <input class="form-control" type="text" name="address" [(ngModel)]="shop.address">
+      </div>
+      <div class="form-group">
+        <label for="">Link</label>
+        <input class="form-control" type="text" name="url" [(ngModel)]="shop.url">
+      </div>
+      <div class="form-group">
+        <label for="">Notes</label>
+        <input class="form-control" type="text" name="note" [(ngModel)]="shop.note">
+      </div>
+
+      <button type="submit" [disabled]="shopForm.invalid" class="btn btn-primary w-100 mt-3 mb-3">
+        Add a new shop
+      </button>
+    </form>
+  </div>
+
+
