@@ -1,0 +1,56 @@
+[
+    {
+      "_id": "1",
+      "name": "Sun lovers",
+      "plantList": [
+        "A: Velencei Kutyatej ",
+        "B: Pompás Varjúháj ",
+        "C: Keleti Mák ",
+        "D: Kerti Harangláb ",
+        "E: Óriás Díszhagyma ",
+        "F: Nagyvirágú Macskamenta ",
+        "G: Piros Gyűszűvirág ",
+        "H: Sárgaviola "
+      ],
+      "note": "",
+      "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/1_1.jpg"
+    },
+    {
+      "_id": "2",
+      "name": "Nice summertime",
+      "plantList": [
+        "A: Törpe Lobélia ",
+        "B: Kerti Sarkantyúka ",
+        "C: Lángszínű Sásliliom ",
+        "D: Sásliliom "
+      ],
+      "note": "",
+      "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/15.jpg"
+    },
+    {
+      "_id": "3",
+      "name": "Low border",
+      "plantList": [
+        "A: Kerti Sarkantyúka ",
+        "B: Cseppecskevirág ",
+        "C: Pompás Gólyaorr "
+      ],
+      "note": "",
+      "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/14.jpg"
+    },
+    {
+      "_id": "4",
+      "name": "All white",
+      "plantList": [
+        "A: Illatos Ibolya ",
+        "B: Dúsvirágú Petúnia",
+        "C: Pompás Rézvirág ",
+        "D: Kerti Nebáncsvirág",
+        "E: Bársonyvirág ",
+        "F: Holland Nőszirom",
+        "G: Margaréta"
+      ],
+      "note": "",
+      "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/7_1.jpg"
+    }
+  ]
