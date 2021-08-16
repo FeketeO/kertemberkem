@@ -1,0 +1,7 @@
+{
+    "database": {
+        "username": "admin01",
+        "password": "Camel123",
+        "host": "mongodb+srv://admin01:<password>@myTestDatabase.mcfhb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    }
+}
