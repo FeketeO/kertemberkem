@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ForbiddenComponent } from './common/forbidden/forbidden.component';
+import { LoginComponent } from './common/login/login.component';
 import { GardenCreateComponent } from './page/garden-create/garden-create.component';
 import { GardenEditorComponent } from './page/garden-editor/garden-editor.component';
 import { GardensComponent } from './page/gardens/gardens.component';
@@ -16,70 +18,141 @@ import { ShopsComponent } from './page/shops/shops.component';
 import { UserCreateComponent } from './page/user-create/user-create.component';
 import { UserEditComponent } from './page/user-edit/user-edit.component';
 import { UsersComponent } from './page/users/users.component';
+import { AuthGuardService } from './service/auth-gard.service';
+import { RoleGuardService } from './service/role-guard.service';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'forbidden',
+    component: ForbiddenComponent
   },
   {
     path: 'plants',
-    component: PlantsComponent
+    component: PlantsComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 1
+    }
   },
   {
     path: 'plants/edit/:id',
-    component: PlantEditorComponent
+    component: PlantEditorComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {
     path: 'plants/create',
-    component: PlantCreateComponent
+    component: PlantCreateComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {
     path: 'sampleHortus',
-    component: SampleHortusComponent
+    component: SampleHortusComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 1
+    }
   },
   {
     path: 'sampleHortus/edit/:id',
-    component: SampleHortusEditorComponent
+    component: SampleHortusEditorComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {path: 'sampleHortus/create',
-    component: SampleHortusCreateComponent
+    component: SampleHortusCreateComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {
     path: 'shops',
-    component: ShopsComponent
+    component: ShopsComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 1
+    }
   },
   {
     path: 'shops/edit/:id',
-    component: ShopEditorComponent
+    component: ShopEditorComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 2
+    }
   },
   {
     path: 'shops/create',
-    component: ShopCreateComponent
+    component: ShopCreateComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 2
+    }
   },
   {
     path: 'gardens',
-    component: GardensComponent
+    component: GardensComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 1
+    }
   },
   {
     path: 'gardens/create',
-    component: GardenCreateComponent
+    component: GardenCreateComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 2
+    }
   },
   {
     path: 'gardens/edit/:id',
-    component: GardenEditorComponent
+    component: GardenEditorComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 2
+    }
   },
   {
     path: 'users',
-    component: UsersComponent
+    component: UsersComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 2
+    }
   },
   {
     path: 'users/edit/:id',
-    component: UserEditComponent
+    component: UserEditComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {
     path: 'users/create',
-    component: UserCreateComponent
+    component: UserCreateComponent,
+    canActivate: [AuthGuardService, RoleGuardService],
+    data: {
+      expectedRole: 3
+    }
   },
   {
     path: '**',

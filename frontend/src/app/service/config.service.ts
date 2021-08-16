@@ -72,6 +72,7 @@ export class ConfigService {
   {key: "url", title: "Link"},
   {key: "note", title: "Note"},
  ];
+  navigation: any;
 
 
   constructor () { }
