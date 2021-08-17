@@ -23,7 +23,7 @@ Az alkalmazás feladata, hogy az adatbázisba bevitt növényekből kertterveket
 
 **Megjelenése:**
 
-- Az alkalmazás egy oldalsvos navigációval rendelkezik, amelyen az egyes oldalak között lehet váltani, reszponzív.
+- Az alkalmazás egy oldalsávos navigációval rendelkezik, amelyen az egyes oldalak között lehet váltani, reszponzív.
 
 ---
 ---
@@ -350,9 +350,7 @@ Ezek az adatok a következők:
 - a növények ismérveinek kibővítése: fagyérzékenység, védettség, ültetési idő, lehetséges felhasználás, stb
 - keresés elkészítése
 - sorrendbe helyezés elkészítése
--boltok térképes megjelenítése
-- 
-
+- boltok térképes megjelenítése
 
 ## **Linkek:**  
 
