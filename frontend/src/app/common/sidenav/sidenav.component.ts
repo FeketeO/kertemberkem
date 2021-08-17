@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { User } from 'src/app/model/user';
+import { AuthService } from 'src/app/service/auth.service';
 
 @Component({
   selector: 'app-sidenav',
@@ -7,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidenavComponent implements OnInit {
 
-  constructor() { }
+  user$: BehaviorSubject<User | null> = this.auth.currentUserSubject$;
+
+  constructor(
+    private auth: AuthService,
+  ) { }
 
   ngOnInit(): void {
   }

@@ -25,20 +25,19 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onLogin(ngForm: NgForm): void {
-    this.auth.login(ngForm.value).toPromise().then(
-      userResponse => {
-        if (this.auth.currentUserValue) {
+  onLogin(): void {
+    this.auth.login(this.user).subscribe(
+      user => {
+        if (user) {
           this.router.navigate(['/']);
         }
-      },
-      err => {
-        this.serverError = err.error;
-        const to = setTimeout( () => {
-          clearTimeout(to);
-          this.serverError = '';
-        }, 3000);
       }
     );
   }
-}
+  setPassword(): void {
+    this.userService.update({_id: '3', password: 'test'})
+      .subscribe( resp => console.log(resp) );
+  }
+
+  }
+
