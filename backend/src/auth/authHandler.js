@@ -76,7 +76,9 @@ module.exports.refresh = (req, res, next) => {
         });
 
         res.json({
-            accessToken
+            accessToken,
+            refreshToken,
+            user
         });
     });
 };

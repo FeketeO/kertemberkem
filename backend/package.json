@@ -1,12 +1,12 @@
 {
   "name": "nodejs-api",
   "version": "1.0.0",
-  "description": "* Node.js - Download and Install [Node.js](http://www.nodejs.org/download/).\r * MongoDB - Download and Install [MongoDB](http://www.mongodb.org/downloads) - Make sure it's running on the default port (27017).",
+  "description": "plant store API",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "jest",
-    "docker:build": "docker build -t nodejs-api:latest .",
+    "docker:build": "docker build -t kertemberkem:latest .",
     "docker-compose:up": "docker-compose up",
     "dev": "concurrently --kill-others \"docker-compose up\" \"node watcher.js\"",
     "build": "cd ../frontend && npm i && ng build && npx copyfiles ./dist/frontend/* ../backend/public/ -f && cd ../backend && npm i && docker-compose up"
@@ -15,6 +15,7 @@
     "body-parser": "^1.19.0",
     "chokidar": "^3.5.2",
     "config": "^3.3.6",
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "g": "^2.0.1",
