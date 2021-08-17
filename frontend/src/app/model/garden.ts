@@ -3,7 +3,7 @@ import { User } from "./user";
 
 export class Garden {
   _id: string = '';
-  user: User = new User();
-  garden : Plant[] = [];
+  user: string = '';
+  garden: string = '';
   note?: string = '';
 }

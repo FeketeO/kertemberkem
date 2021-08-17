@@ -1,6 +1,5 @@
 [
     {
-      "_id": "1",
       "name": "Oázis Kertészet - Budapest, Pasarét",
       "city": "Budapest",
       "address": "Zilah u. 6, 1022",
@@ -8,7 +7,6 @@
       "note": ""
     },
     {
-      "_id": "2",
       "name": "Safru",
       "city": "Budapest",
       "address": " Budaörsi út, 1112",
@@ -16,7 +14,6 @@
       "note": ""
     },
     {
-      "_id": "3",
       "name": "Kelenvölgyi Díszfaiskola",
       "city": "Budapest",
       "address": "Balatoni út 143, 1112",
@@ -24,7 +21,6 @@
       "note": ""
     },
     {
-      "_id": "4",
       "name": "Fitoland Belvárosi Díszfaiskola",
       "city": "Budapest",
       "address": "Edvi Illés út 25, 1083",
@@ -32,7 +28,6 @@
       "note": ""
     },
     {
-      "_id": "5",
       "name": "Négy Évszak Kertészet",
       "city": "Balatonszabadi",
       "address": "Alsópáskom 1, 8651",
@@ -40,7 +35,6 @@
       "note": ""
     },
     {
-      "_id": "6",
       "name": "Balaskó kertészet",
       "city": "Csopak",
       "address": "Lóczy Lajos u. 2, 8229",
@@ -48,7 +42,6 @@
       "note": ""
     },
     {
-      "_id": "7",
       "name": "Oázis Kertészet, Jászberény",
       "city": "Jászberény",
       "address": "Nagykátai út 17, 5100",
@@ -56,7 +49,6 @@
       "note": ""
     },
     {
-      "_id": "8",
       "name": "Maroti Díszfaiskola Kft",
       "city": "Tóalmás",
       "address": "Peresi dűlő, 2252",
@@ -64,7 +56,6 @@
       "note": ""
     },
     {
-      "_id": "9",
       "name": "Hegede Kertészeti Kft.",
       "city": "Helvécia",
       "address": "Alsótelepi dűlő 5, 6034",
@@ -72,7 +63,6 @@
       "note": ""
     },
     {
-      "_id": "10",
       "name": "Bagosi Kertészeti Áruda",
       "city": "Kecskemét",
       "address": "Nyugati körút, 6000",

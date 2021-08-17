@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: Bookstore API
-  description: A simple bookstore API
+  title: Plantstore API
+  description: A garden plannin API
 servers:
   - url: http://localhost:3000
 paths:
@@ -362,28 +362,46 @@ components:
       type: object
       required:
         - user
+        - garden
+      properties:
+        user:
+          type: string
+        garden:
+          type: string
+        note:
+          type: string
+    SampleHortus:
+      type: object
+      required:
+        - name
+        - plantList
       properties:
         name:
           type: string
-    Address:
+        plantList:
+          type: string
+        note:
+          type: string
+        url:
+          type: string
+    Shop:
       type: object
       required:
-        - country
+        - name
         - city
-        - street
-        - zip
-        - building
+        - address
+        - url
       properties:
-        country:
+        name:
           type: string
         city:
           type: string
-        street:
+        adress:
           type: string
-        zip:
-          type: number
-        building:
-          type: number
+        url:
+          type: string
+        note:
+          type: string
     Error:
       type: object
       required:

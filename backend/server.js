@@ -37,25 +37,23 @@ mongoose
         
     });
 
-// app.use(cors());
+app.use(cors());
 
-// app.use(morgan('combined', {stream: logger.stream}));
-// app.use(bodyParser.json());
-// app.use(express.static('public'));
+app.use(morgan('combined', {stream: logger.stream}));
+app.use(bodyParser.json());
+app.use(express.static('public'));
 
 // // Router.
-// app.post('/login', authHandler.login);
-// app.post('/refresh', authHandler.refresh);
-// app.post('/logout', authHandler.logout);
+app.post('/login', authHandler.login);
+app.post('/refresh', authHandler.refresh);
+app.post('/logout', authHandler.logout);
 
-// app.use('/superheroes', authenticateJwt, require('./controllers/superhero/routes'));
-// app.use('/marvel-characters', authenticateJwt, require('./controllers/marvelCharacter/routes'));
-// app.use('/marvel-comics', authenticateJwt, require('./controllers/marvelComic/routes'));
-// app.use('/marvel-creators', authenticateJwt, require('./controllers/marvelCreator/routes'));
-// app.use('/marvel-events', authenticateJwt, require('./controllers/marvelEvent/routes'));
-// app.use('/marvel-stories', authenticateJwt, require('./controllers/marvelStory/routes'));
-// app.use('/users', authenticateJwt, require('./controllers/user/routes'));
-// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/plants', require('./controllers/plants/routes'));
+app.use('/gardens', require('./controllers/gardens/routes'));
+app.use('/hortus', require('./controllers/hortus/routes'));
+app.use('/shops', require('./controllers/shops/routes'));
+app.use('/users', require('./controllers/users/routes'));
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use( (err, req, res, next) => {
     res.status(err.statusCode || 500);

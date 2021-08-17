@@ -1,6 +1,5 @@
 [
     {
-      "_id": "1",
       "name": "Sun lovers",
       "plantList": [
         "A: Velencei Kutyatej ",
@@ -16,7 +15,7 @@
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/1_1.jpg"
     },
     {
-      "_id": "2",
+      
       "name": "Nice summertime",
       "plantList": [
         "A: Törpe Lobélia ",
@@ -28,7 +27,7 @@
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/15.jpg"
     },
     {
-      "_id": "3",
+      
       "name": "Low border",
       "plantList": [
         "A: Kerti Sarkantyúka ",
@@ -39,7 +38,7 @@
       "url": "http://gazigazito.hu/tarhely/probalkozas/kepek/14.jpg"
     },
     {
-      "_id": "4",
+      
       "name": "All white",
       "plantList": [
         "A: Illatos Ibolya ",

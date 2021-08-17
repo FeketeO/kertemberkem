@@ -4,7 +4,7 @@ import { Plant } from "./plant";
 export class SampleHortus {
   _id: string = '';
   name: string = '';
-  plantList : Plant[] = [];
+  plantList : string = '';
   note?: string = '';
   url?: string = ''
 }
