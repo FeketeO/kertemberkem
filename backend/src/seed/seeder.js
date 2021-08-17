@@ -28,7 +28,7 @@ const seedCollection = async (model, fileName) => {
     seedCollection(Plant, 'plants');
     seedCollection(Garden, 'gardens');
     seedCollection(Hortus, 'hortus');
-    seedCollection(Shop, 'shop');
+    seedCollection(Shop, 'shops');
     seedCollection(User, 'users');
 
 })();

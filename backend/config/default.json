@@ -2,7 +2,7 @@
     "database": {
         "username": "admin01",
         "password": "Camel123",
-        "host": "mongodb+srv://admin01:<password>@cluster0.mcfhb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "host": "mongodb+srv://admin01:Camel123@cluster0.mcfhb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
     }
 }

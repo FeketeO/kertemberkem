@@ -298,11 +298,7 @@ components:
     User:
       type: object
       required:
-        - first_name
-        - last_name
         - email
-        - address
-        - role
       properties:
         first_name:
           type: string

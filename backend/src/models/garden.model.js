@@ -6,7 +6,7 @@ const GardenSchema = mongoose.Schema({
         required: true
     },
     garden: {
-        type: String,
+        type: [],
         required: true
     },
     note: {

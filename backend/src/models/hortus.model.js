@@ -6,7 +6,7 @@ const HortusSchema = mongoose.Schema({
         required: true
     },
     plantList: {
-        type: String,
+        type: [],
         required: true
     },
     note: {
